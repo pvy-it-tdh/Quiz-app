@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Công nghệ sử dụng: React
 
-## Available Scripts
+### Ưu điểm 
+1. App đơn giản dễ dùng 
+2. Tính năng khá là oke
 
-In the project directory, you can run:
+### Nhược điểm
+1. Giao diện khá đơn giản 
+2. Nên làm thêm tính năng cho người dùng tự nhập data
+3. Không sử dụng Responsive
+4. Nên tích hợp BE vào sử dụng database để lưu trữ data
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Data
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Các bạn có thể chỉnh sửa data rồi dùng 
+``` js
+export const data = [
+    {
+      question: "Which device is required for the Internet connection?",
+      option1: "Modem",
+      option2: "Router",
+      option3: "LAN Cable",
+      option4: "Pen Drive",
+      ans: 1,
+    },
+    {
+      question: "Which continent has the highest number of countries?",
+      option1: "Asia",
+      option2: "Europe",
+      option3: "North America",
+      option4: "Africa",
+      ans: 4,
+    },
+    {
+      question: "Junk e-mail is also called?",
+      option1: "Spam",
+      option2: "Fake",
+      option3: "Archived",
+      option4: "Bin",
+      ans: 1,
+    },
+    {
+      question: "A computer cannot BOOT if it does not have the?",
+      option1: "Application Software",
+      option2: "Internet",
+      option3: "Operating System",
+      option4: "Mouse",
+      ans: 3,
+    },
+    {
+      question: "First page of Website is termed as?",
+      option1: "Index Page",
+      option2: "Homepage",
+      option3: "Sitemap",
+      option4: "Pen Drive",
+      ans: 2,
+    },
+  ];
+  ```
 
-### `npm test`
+![app](../myquizapp/images/z5325880913422_a0ff091b5f58e46ff95c8307732561d3.jpg)
+![app](../myquizapp/images/z5325880913896_666f3c0e2cda4141d401e984206f6c82.jpg)
+![app](../myquizapp/images/z5325880920573_c186305b0da43245cab500c5d103d056.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Một chút tâm sự
+App chưa được hoàn thiện cho lắm một phần tui thường làm BE nhiều hơn FE một phần tui cũng mới học React thui nên làm cũng chưa được hoàn hảo lắm và một phần tui cũng không có nhiều thời gian để làm dự án này trong tương lai gần tui sẽ phát triển app một các hoàn thiện nhất có thể
