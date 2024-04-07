@@ -61,9 +61,9 @@ export const data = [
   ];
   ```
 
-![app](../myquizapp/images/z5325880913422_a0ff091b5f58e46ff95c8307732561d3.jpg)
-![app](../myquizapp/images/z5325880913896_666f3c0e2cda4141d401e984206f6c82.jpg)
-![app](../myquizapp/images/z5325880920573_c186305b0da43245cab500c5d103d056.jpg)
+![app](./images/z5325880913422_a0ff091b5f58e46ff95c8307732561d3.jpg)
+![app](./images/z5325880913896_666f3c0e2cda4141d401e984206f6c82.jpg)
+![app](./images/z5325880920573_c186305b0da43245cab500c5d103d056.jpg))
 
 ### Một chút tâm sự
 App chưa được hoàn thiện cho lắm một phần tui thường làm BE nhiều hơn FE một phần tui cũng mới học React thui nên làm cũng chưa được hoàn hảo lắm và một phần tui cũng không có nhiều thời gian để làm dự án này trong tương lai gần tui sẽ phát triển app một các hoàn thiện nhất có thể
