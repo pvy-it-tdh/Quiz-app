@@ -1,7 +1,8 @@
 *{
+  padding: 0;
   margin: 0;
 }
 body{
-  height: 100vh;
+  /* height: 100vh; */
   background-image: linear-gradient(#1c1a1a,#394677);
 }
