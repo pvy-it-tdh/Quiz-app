@@ -92,5 +92,70 @@ export const data = [
     option4: "Cả ba câu kia đều đúng",
     ans: 4,
   },
-  // tới câu 38 trong đề cương r
+  {
+    question:
+      "Khâu động học cơ bản nào mà đáp ứng biên tần logarithm có độ dốc +20dB/dec?",
+    option1: "Khâu tích phân lý tưởng",
+    option2: "Khâu vi phân lý tưởng",
+    option3: "Khâu quán tính bậc 1",
+    option4: "Khâu sớm pha bậc 1",
+    ans: 2,
+  },
+  {
+    question:
+      "Khâu động học cơ bản nào mà đáp ứng biên tần logarithm có độ dốc +40dB/dec?",
+    option1: "Khâu dao động bậc 2",
+    option2: "Khâu vi phân lý tưởng",
+    option3: "Khâu quán tính bậc 1",
+    option4: "Khâu sớm pha bậc 1",
+    ans: 1,
+  },
+  {
+    question:
+      "Thêm khâu động học cơ bản nào vào hệ thống mà không làm thay đổi biên độ của hệ thống?",
+    option1: "Khâu tỉ lệ",
+    option2: "Khâu dao động",
+    option3: "Khâu trễ",
+    option4: "Khâu sớm pha bậc 1",
+    ans: 3,
+  },
+  {
+    question:
+      "Thêm khâu động học cơ bản nào vào hệ thống mà không làm thay đổi pha của hệ thống?",
+    option1: "Khâu tỉ lệ",
+    option2: "Khâu dao động",
+    option3: "Khâu trễ",
+    option4: "Khâu sớm pha bậc 1",
+    ans: 1,
+  },
+  {
+    question: "Đặc tính pha tần của khâu động học nào sau đây là không đổi?",
+    option1: "Khâu tích phân lý tưởng",
+    option2: "Khâu vi phân lý tưởng",
+    option3: "Khâu tỉ lệ",
+    option4: "Cả ba câu kia đều đúng",
+    ans: 3,
+  },
+  {
+    question: "Đây là đặc tính pha tần của khâu động học nào?",
+    option1: "Khâu quán tính bậc 1",
+    option2: "Khâu dao động bậc 2",
+    option3: "Khâu tích phân",
+    option4: "Khâu trễ",
+    ans: 1,
+  },
+  {
+    question: "Đâu là phát biểu đúng về khâu quán tính bậc 1?",
+    option1:
+      "Chỉ có 1 cực thực âm nên đáp ứng quá độ không có vọt lố (không bị quá điều chỉnh)",
+    option2:
+      "Chỉ có 1 cực ảo nên đáp ứng quá độ không có vọt lố (không bị quá điều chỉnh)",
+    option3:
+      "Chỉ có 1 cực thực dương nên đáp ứng quá độ không có vọt lố (không bị quá điều chỉnh)",
+    option4:
+      "Chỉ có 1 cực thực âm nên đáp ứng quá độ có vọt lố (bị quá điều chỉnh)",
+    ans: 1,
+  },
+
+  // tới câu 54 r
 ];
