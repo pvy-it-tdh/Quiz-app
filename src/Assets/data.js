@@ -567,29 +567,75 @@ export const data = [
 
   // 241 r
   {
-    question: "",
-    option1: "",
-    option2: "",
-    option3: "",
-    option4: "",
+    question: "Hệ rời rạc ổn định khi",
+    option1: "Tất cả các phương án đều sai",
+    option2: "Các hệ số của phương trình đặc trưng dương",
+    option3: "Cột đầu tiên của bảng Routh dương",
+    option4: "Các nghiệm của phương trình đặc trưng nằm bên trái trục ảo",
     ans: 1,
   },
   {
-    question: "",
-    option1: "",
-    option2: "",
-    option3: "",
-    option4: "",
+    question: "Phát biểu nào sau đây là đúng cho hệ rời rạc",
+    option1:
+      "Hệ rời rạc ổn định khi tất cả các điểm cực nàm trong đường tròn đơn vị",
+    option2:
+      "Hệ rời rạc ổn định khi tất cả các hệ số của phương trình đặc trưng dương",
+    option3:
+      "Hệ rời rạc ổn định khi tất cả các số hạng trong cột đầu tiên của bảng Routh dương",
+    option4: "Tất cả cả các phát biểu đều sai.",
     ans: 1,
   },
   {
-    question: "",
-    option1: "",
-    option2: "",
-    option3: "",
-    option4: "",
-    ans: 1,
+    question:
+      "Điều kiện cần và đủ để hệ thống rời rạc ổn định theo tiêu chuẩn Jury là:",
+    option1: "Tất cả các hệ số ở hàng lẻ của bảng Jury đều dương",
+    option2: "Tất cả các hệ số ở hàng lẻ cột 1 của bảng Jury đều dương",
+    option3: "Tất cả các hệ số ở hàng chẵn của bảng Jury đều dương",
+    option4: "Tất cả các hệ số ở hàng chẵn cột 1 của bảng Jury đều dương",
+    ans: 2,
   },
+  {
+    question:
+      "Giao điểm của quỹ đạo nghiệm số hệ thống rời rạc với vòng tròn đơn vị được xác định bằng cách áp dụng:",
+    option1: "Tiêu chuẩn Routh mở rộng",
+    option2: "Tiêu chuẩn Hurwitz mở rộng",
+    option3: "Thay z=a+jb (a^2+b^2 =1) vào phương trình đặc trưng",
+    option4: "Cả ba câu kia đều đúng",
+    ans: 4,
+  },
+  {
+    question: "Cặp cực quyết định của hệ rời rạc là cặp cực:",
+    option1: "Nằm gần trục ảo nhất",
+    option2: "Nằm gần trục thực nhất",
+    option3: "Nằm bên ngoài và gần vòng tròn đơn vị nhất",
+    option4: "Nằm bên trong và gần vòng tròn đơn vị nhất",
+    ans: 4,
+  },
+  {
+    question: "Để tìm đáp ứng của hệ thống rời rạc rạc c(k) thì:",
+    option1: "Tính C(z) rồi biến đổi Z ngược tìm c(k)",
+    option2: "Tính nghiệm của phương trình trạng thái x(k) sau đó suy ra c(k)",
+    option3: "Cả A và B đều đúng",
+    option4: "Cả A và B đều sai",
+    ans: 3,
+  },
+  {
+    question: "Độ vọt lố của hệ thống rời rạc được tính dựa vào:",
+    option1: "Giá trị cực đại và giá trị xác lập của đáp ứng thời gian c(k)",
+    option2: "Cặp cực quyết định",
+    option3: "Cả A và B đều đúng",
+    option4: "Cả A và B đều sai",
+    ans: 3,
+  },
+  {
+    question: "Thời gian quá độ của hệ thống rời rạc được tính dựa vào:",
+    option1: "Giá trị xác lập của đáp ứng thời gian c(k)",
+    option2: "Cặp cực quyết định",
+    option3: "Cả A và B đều đúng",
+    option4: "Cả A và B đều sai",
+    ans: 3,
+  },
+  // tới câu 250 r
   {
     question: "",
     option1: "",
