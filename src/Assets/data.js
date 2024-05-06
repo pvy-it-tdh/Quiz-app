@@ -266,7 +266,6 @@ export const data = [
     option4: "Cả ba câu kia đều sai",
     ans: 2,
   },
-  // xong 131 r
   {
     question: "Khi thêm một cực có phần thực âm vào hàm truyền hệ hở thì",
     option1: "Hệ thống sẽ kém ổn định",
@@ -333,7 +332,6 @@ export const data = [
     option4: "Cả ## A và ## B đều đúng",
     ans: 4,
   },
-  // xong câu 146 r
   {
     question:
       "Khâu hiệu chỉnh nào sau đây vừa cải thiện đáp ứng quá độ vừa giảm sai số xác lập?",
@@ -457,6 +455,118 @@ export const data = [
     ans: 4,
   },
   {
+    question: "Đối với hệ thống hồi tiếp âm",
+    option1:
+      "Sai số xác lập của hệ kín chỉ phụ thuộc vào biên độ của hệ hở ở miền tần số thấp",
+    option2:
+      "Hệ hở có biên độ ở miền tần số thấp càng cao thì hệ kín có sai số xác lập càng nhỏ",
+    option3: "Hệ hở có tần số cắt biên càng cao thì thời gian quá độ càng nhỏ",
+    option4: "Cả ba câu kia đều đúng",
+    ans: 4,
+  },
+  {
+    question: "Hàm truyền đạt của hệ thống rời rạc là:",
+    option1:
+      "Phương trình sai phân mô tả quan hệ giữa tín hiệu lối vào và tín hiệu lối ra",
+    option2:
+      "Tỷ số giữa biến đổi Laplace của tín hiệu lối ra và tín hiệu lối vào với điều kiện ban đầu bằng 0",
+    option3: "Tỷ số giữa biến đổi Z của tín hiệu lối ra và tín hiệu lối vào",
+    option4: "Cả 3 câu kia đều đúng",
+    ans: 3,
+  },
+  {
+    question: "Lấy mẫu tín hiệu là ",
+    option1:
+      "Biến đổi từ tín hiệu liên tục theo thời gian thành tín hiệu rời rạc theo thời gian",
+    option2:
+      "Biến đổi từ tín hiệu rời rạc theo thời gian thành tín hiệu liên tục theo thời gian",
+    option3: "Chọn tín hiệu ngẫu nhiên",
+    option4: "Cả ba câu kia đều sai",
+    ans: 1,
+  },
+  {
+    question: "Mô hình toán học của hệ rời rạc là:",
+    option1:
+      "Phương trình đại số mô tả quan hệ giữa tín hiệu vào và tín hiệu ra",
+    option2: "Phương vi phân số mô tả quan hệ giữa tín hiệu vào và tín hiệu ra",
+    option3:
+      "Phương trình sai phân mô tả quan hệ giữa tín hiệu vào và tín hiệu ra",
+    option4: "Cả ba câu kia đều sai",
+    ans: 3,
+  },
+  {
+    question: "Khâu giữ chậm bậc 0 (ZOH) có tác dụng",
+    option1: "Giữ tín hiệu không đổi trong thời gian một chu kỳ",
+    option2: "Giữ tín hiệu không đổi các lần lấy mẫu",
+    option3: "Chuyển tín hiệu liên tục thành tính hiệu rời rạc",
+    option4: "Tất cả phương án trên đều đúng",
+    ans: 1,
+  },
+  {
+    question: "Hàm truyền đạt của hệ thống rời rạc phụ thuộc vào",
+    option1: "Cấu trúc của hệ thống",
+    option2: "Thông số của hệ thống",
+    option3: "Chu kỳ lấy mẫu",
+    option4: "Cả ba câu kia đều đúng",
+    ans: 4,
+  },
+  {
+    question: "ADC là ",
+    option1: "Bộ chuyển đổi tín hiệu từ dạng tương tự sang số",
+    option2: "Bộ chuyển đổi tín hiệu từ dạng số sang tương tự",
+    option3: "Bộ khuếch đại",
+    option4: "Bộ làm méo tín hiệu",
+    ans: 1,
+  },
+  {
+    question: "DAC là",
+    option1: "Bộ chuyển đổi tín hiệu từ dạng số sang tương tự",
+    option2: "Bộ thay đổi tần số tín hiệu vào",
+    option3: "Bộ khuếch đại tín hiệu đầu ra",
+    option4: "Bộ chuyển đổi tín hiệu từ dạng tương tự sang số",
+    ans: 1,
+  },
+  {
+    question: "Bản chất của biến đổi Z là gì?",
+    option1: "Rời rạc hóa tín hiệu",
+    option2: "Tuyến tính hóa tín hiệu phi tuyến",
+    option3: "Lấy đạo hàm tín hiệu",
+    option4: "Lấy tích phân tín hiệu",
+    ans: 1,
+  },
+
+  {
+    question: "Nếu bỏ qua sai số lượng tử thì:",
+    option1: "Các bộ DAC chính là các bộ giữ mẫu bậc không (ZOH)",
+    option2: "Các bộ ADC chính là các bộ giữ mẫu bậc không (ZOH)",
+    option3: "Các bộ nhân tín hiệu chính là các bộ giữ mẫu bậc không (ZOH)",
+    option4: "Các bộ so sánh chính là các bộ giữ mẫu bậc không (ZOH)",
+    ans: 1,
+  },
+  {
+    question:
+      "Hệ rời rạc được biểu diễn bằng phương trình sai phân. Tìm hàm truyền đạt của hệ thống này bằng cách nào?",
+    option1:
+      "Biến đổi Z hai vế của phương trình sai phân, tìm tỉ số giữa tín hiệu ra và tín hiệu vào",
+    option2:
+      "Biến đổi Z hai vế của phương trình sai phân, tìm tỉ số giữa tín hiệu vào và tín hiệu ra",
+    option3:
+      "Biến đổi Laplace hai vế của phương trình sai phân, tìm tỉ số giữa tín hiệu ra và tín hiệu vào",
+    option4:
+      "Biến đổi Laplace hai vế của phương trình sai phân, tìm tỉ số giữa tín hiệu vào và tín hiệu ra",
+    ans: 1,
+  },
+  {
+    question: "Hệ rời rạc ổn định khi:",
+    option1: "Tất cả các điểm cực nằm trong đường tròn đơn vị",
+    option2: "Tất cả các điểm không nằm trong đường tròn đơn vị",
+    option3: "Tất cả các điểm cực có phần thực dương",
+    option4: "Tất cả các điểm cực có phần thực âm",
+    ans: 1,
+  },
+
+  // 241 r
+  {
     question: "",
     option1: "",
     option2: "",
@@ -464,6 +574,28 @@ export const data = [
     option4: "",
     ans: 1,
   },
-
-  // tới câu 162 r
+  {
+    question: "",
+    option1: "",
+    option2: "",
+    option3: "",
+    option4: "",
+    ans: 1,
+  },
+  {
+    question: "",
+    option1: "",
+    option2: "",
+    option3: "",
+    option4: "",
+    ans: 1,
+  },
+  {
+    question: "",
+    option1: "",
+    option2: "",
+    option3: "",
+    option4: "",
+    ans: 1,
+  },
 ];
