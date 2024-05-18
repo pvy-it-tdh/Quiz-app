@@ -435,7 +435,7 @@ export const data = [
     option2: "Hệ số vị trí là nghịch đảo của sai số vị trí",
     option3: "Hệ số vị trí là nghịch đảo của sai số vận tốc",
     option4: "cả ba câu kia đều đúng",
-    ans: 4,
+    ans: 2,
   },
   {
     question: "Đối với hệ thống hồi tiếp âm",
@@ -618,7 +618,6 @@ export const data = [
     option4: "Cả A và B đều sai",
     ans: 3,
   },
-  // // tới câu 250 r
   {
     question: "Phát biểu nào sau đây là không đúng?",
     option1:
@@ -675,5 +674,5 @@ export const data = [
     option3: "Chưa thể kết luận được tính ổn định",
     option4: "Hệ thống không có phản hồi",
     ans: 3,
-  }
+  },
 ];
